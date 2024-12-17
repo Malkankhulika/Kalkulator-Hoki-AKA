@@ -1,8 +1,6 @@
-# Analisis-Kompleksitas-Algoritma
-TUBES AKA
-# <h1 align="center">Classification_MonkeyPox</h1>
-<p align="center">Khulika Malkan</p>
-<p align="center">2311110057</p>
+# <h1 align="center">Kalkulator Hoki</h1>
+<p align="center">Khulika Malkan (2311110057)</p>
+<p align="center">Rizal Wahyu Pratama (2311110029)</p>
 
 ## Features
 
