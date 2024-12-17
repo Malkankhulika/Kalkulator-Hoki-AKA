@@ -2,7 +2,7 @@
 <p align="center">Khulika Malkan (2311110057)</p>
 <p align="center">Rizal Wahyu Pratama (2311110029)</p>
 
-## Features
+## Daftar Isi
 
 - [Study Case](#GambaranumumMonkeyPox)
 - [Analisis dan Result](#Reference)
