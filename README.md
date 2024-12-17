@@ -12,7 +12,7 @@
 - [Reference](#Reference)
   
 ## Study Case
-![image](https://github.com/user-attachments/assets/caecf5dc-1c1a-42b5-87ca-7684067f2f56)
+
 
 Pada Mei 2022, wabah monkeypox, sebuah penyakit virus, dikonfirmasi terjadi. Kasus pertama ditemukan di Inggris pada 6 Mei 2022, pada individu yang memiliki riwayat perjalanan ke Nigeria, tempat penyakit ini endemik. Wa
 
