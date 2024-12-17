@@ -5,12 +5,12 @@
 ## Features
 
 - [Study Case](#GambaranumumMonkeyPox)
-- [Analisis dan Result]
+- [Analisis dan Result](#Reference)
 - [Code](#Code)
-- [Performance Comparisom](#Performance Comparisom)
-- [Itetarive Vs Rekursive](#Iterative Vs Rekursive)
+- [Performance Comparisom](#Reference)
+- [Itetarive Vs Rekursive](#Reference)
 - [Conclusion](#Conclusion)
-- [Reference](#Reference)\
+- [Reference](#Reference)
   
 ## Gambaran Umum MonkeyPox
 ![image](https://github.com/user-attachments/assets/caecf5dc-1c1a-42b5-87ca-7684067f2f56)
