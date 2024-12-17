@@ -4,10 +4,10 @@
 
 ## Features
 
-- [Gambaran Umum MonkeyPox](#GambaranumumMonkeyPox)
-- [About Dataset](#AboutDataset)
+- [Study Case](#GambaranumumMonkeyPox)
+- [Analisis Dan Result](#AboutDataset)
 - [Code](#Code)
-- [Output](#Output)
+- [PERFORMANCE COMPARISON](#Output)
 - [Kesimpulan](#Kesimpulan)
 
 ## Gambaran Umum MonkeyPox
