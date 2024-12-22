@@ -105,8 +105,6 @@ Namun, meskipun rekursi menunjukkan keunggulan dalam hal waktu eksekusi, perbeda
   Algoritma rekursif memerlukan memori tambahan karena setiap pemanggilan fungsi rekursif menambah data pada call stack. Oleh karena itu, kompleksitas memori dari algoritma rekursif adalah O(n), karena kedalaman rekursi sebanding dengan jumlah elemen input. Dengan proses pada setiap panggilan rekursif, memori akan digunakan untuk menyimpan status eksekusi dan variabel sementara sampai fungsi mencapai kondisi dasar.
 
 
-
-
 ## Kesimpulan
 
 Kesimpulan dari proyek aplikasi "Kalkulator Hoki" ini menunjukkan bahwa kedua algoritma, yaitu iteratif dan rekursif, memiliki kelebihan dan kekurangan masing-masing dalam konteks penerapan pada aplikasi ini. Berdasarkan hasil analisis, algoritma iteratif lebih efisien dalam hal waktu eksekusi dan penggunaan memori, terutama pada input yang besar, karena tidak terpengaruh oleh batasan kedalaman rekursi dan overhead call stack. Di sisi lain, algoritma rekursif dapat menjadi pilihan pada masalah yang lebih cocok untuk dibagi menjadi sub-masalah, tetapi performanya menurun seiring dengan peningkatan ukuran input, terutama pada kasus besar yang dapat menyebabkan stack overflow.
