@@ -20,6 +20,8 @@ Gagasan ini berakar dari fenomena rasa penasaran manusia terhadap hal-hal yang b
 
 Dengan menggunakan pendekatan sederhana berbasis penghitungan numerik, aplikasi ini tidak hanya menawarkan pengalaman yang menarik bagi pengguna, tetapi juga memberikan peluang untuk mengeksplorasi efisiensi algoritma dalam implementasi dunia nyata. Dalam konteks studi kasus ini, fokus utama adalah membandingkan efisiensi algoritma iteratif dan rekursif yang digunakan dalam penghitungan skor hoki. Perbandingan tersebut dilakukan melalui analisis kompleksitas waktu asimtotik serta pengukuran waktu eksekusi dengan berbagai ukuran masukan. Studi ini diharapkan dapat memberikan pemahaman yang lebih mendalam tentang pentingnya pemilihan algoritma yang efisien dalam menyelesaikan permasalahan komputasi.
 
+![WhatsApp Image 2024-12-22 at 22 25 13_249684bb](https://github.com/user-attachments/assets/0fa0e3bf-b8f6-4f63-8825-b1c5b716b7d8)
+
   **Hasil dan Manfaat**
 - Pengalaman Pengguna: Program ini berhasil menciptakan pengalaman yang menyenangkan dan interaktif, meningkatkan keterlibatan pengguna.
 - Statistik yang Berguna: Dengan menyimpan hasil sebelumnya, pengguna dapat melacak perkembangan hoki mereka, yang menambah nilai lebih pada program.
@@ -50,6 +52,8 @@ Penjelasan struktur dan elemen dalam program kalkulator hoki
    credentials.json merupakan file konfigurasi yang menyimpan data privat, seperti mode operasi (iteratif atau rekursif) yang digunakan oleh backend.
 
 **Deskripsi Program**
+![WhatsApp Image 2024-12-22 at 22 25 50_de181fab](https://github.com/user-attachments/assets/ab0ae6d2-74dc-419f-ae79-e4bc430f777b)
+
 - Input Pengguna: Program meminta pengguna untuk memasukkan nama panggilan mereka.
 - Perhitungan Hoki:
   - a. Mengambil tiga huruf pertama dari nama yang dimasukkan.
