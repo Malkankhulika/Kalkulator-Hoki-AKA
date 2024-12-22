@@ -13,9 +13,11 @@
 - [Referensi](#Reference)
   
 ## Study Case
+Kalkulator Hoki merupakan sebuah aplikasi interaktif yang dirancang untuk menghitung tingkat keberuntungan seseorang berdasarkan tiga huruf pertama dari nama panggilan mereka. Proses penghitungan dilakukan dengan menjumlahkan nilai numerik yang merepresentasikan huruf dalam alfabet (A=1, B=2, ..., Z=26), kemudian melibatkan operasi tambahan untuk menghasilkan skor keberuntungan (hoki) akhir.
 
+Gagasan pengembangan aplikasi ini berakar dari fenomena rasa penasaran manusia terhadap hal-hal yang berkaitan dengan peramalan, seperti angka keberuntungan, zodiak, atau ramalan lainnya. Hal ini menggambarkan ketertarikan alami manusia terhadap prediksi berbasis data atau simbolik. Dengan menggunakan pendekatan sederhana berbasis penghitungan numerik, aplikasi ini tidak hanya menawarkan pengalaman yang menarik bagi pengguna, tetapi juga memberikan peluang untuk mengeksplorasi efisiensi algoritma dalam implementasi dunia nyata.
 
-Pada Mei 2022, wabah monkeypox, sebuah penyakit virus, dikonfirmasi terjadi. Kasus pertama ditemukan di Inggris pada 6 Mei 2022, pada individu yang memiliki riwayat perjalanan ke Nigeria, tempat penyakit ini endemik. Wa
+Dalam konteks studi kasus ini, fokus utama adalah membandingkan efisiensi algoritma iteratif dan rekursif yang digunakan dalam penghitungan skor hoki. Perbandingan tersebut dilakukan melalui analisis kompleksitas waktu asimtotik serta pengukuran waktu eksekusi dengan berbagai ukuran masukan. Studi ini diharapkan dapat memberikan pemahaman yang lebih mendalam tentang pentingnya pemilihan algoritma yang efisien dalam menyelesaikan permasalahan komputasi.
 
 
 ## Analisis dan Result
