@@ -88,3 +88,7 @@ Pada Mei 20
 [1] https://www.researchgate.net/publication/376456580_Ramalan_Di_Era_Digital_Pengaruh_Video_Tiktok_Terkait_Kepercayaan_Remaja_Kepada
 
 [2] https://journal.unair.ac.id/download-fullpapers-japanology87dbefda8b2full.pdf?utm_source=chatgpt.com
+
+[3] D. E. Knuth, The Art of Computer Programming, Volume 1: Fundamental Algorithms, Addison-Wesley, 1973.
+
+[4] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, Introduction to Algorithms, 3rd ed. MIT Press, 2009.
