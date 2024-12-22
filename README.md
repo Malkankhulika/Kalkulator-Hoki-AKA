@@ -64,6 +64,11 @@ Kedua algoritma dipilih berdasarkan kemampuan mereka untuk menyelesaikan perhitu
 ## Grafik Perbandingan Running Timne
 ![image](https://github.com/user-attachments/assets/f70fdd15-d783-49b7-9aab-b5a28d08e1a9)
 
+Grafik perbandingan waktu eksekusi (running time) antara algoritma rekursif dan iteratif pada "kalkulator hoki" menunjukkan variasi kinerja kedua metode dalam menyelesaikan tugas yang sama. Secara umum, hasil menunjukkan bahwa algoritma rekursif memiliki waktu eksekusi yang lebih rendah dibandingkan algoritma iteratif pada sebagian besar kasus. Hal ini mengindikasikan bahwa rekursi, dengan mekanisme pemanggilan fungsi berulang, lebih efisien dalam menyelesaikan perhitungan yang melibatkan submasalah yang berulang. Keunggulan rekursi ini terlihat terutama pada individu dengan waktu eksekusi yang lebih cepat, meskipun beberapa individu menunjukkan perbedaan waktu yang lebih kecil atau bahkan lebih tinggi pada algoritma iteratif. Hal ini sejalan dengan temuan dari penelitian sebelumnya yang menunjukkan bahwa rekursi seringkali lebih cepat dalam kasus masalah yang terstruktur secara rekursif, seperti pada perhitungan pohon atau grafik (Knuth, 1973; Cormen et al., 2009).
+
+Namun, meskipun rekursi menunjukkan keunggulan dalam hal waktu eksekusi, perbedaan yang terjadi pada data ini mengindikasikan bahwa faktor lain, seperti kompleksitas input dan implementasi algoritma, juga mempengaruhi kinerja masing-masing metode. Algoritma iteratif, meskipun lebih lambat secara umum dalam dataset ini, cenderung lebih stabil dan memiliki kontrol yang lebih baik terhadap alur eksekusi, serta lebih mudah dioptimalkan dalam beberapa kasus (Sedgewick & Wayne, 2011). Oleh karena itu, pemilihan antara rekursif dan iteratif harus mempertimbangkan berbagai aspek, seperti efisiensi waktu, kebutuhan memori, dan kompleksitas implementasi, yang dapat berbeda tergantung pada konteks aplikasi dan karakteristik masalah yang dihadapi.
+
+
 ## Performance Comparisom
 Pada Mei 20
 
