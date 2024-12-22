@@ -6,7 +6,7 @@
 
 - [Studi Kasus](#Studi-Kasus)
 - [Struktur Program](#Struktur-Program)
-- [Deskripsi Algoritma](#Deskripsi-Algoritma)
+- [Deskripsi Algoritma yang dipilih untuk menyelesaikan permasalahan](#Deskripsi-Algoritma)
 - [Grafik Perbandingan Running Time](#Grafik-Perbandingan-Running-Time)
 - [Kompleksitas Algoritma Terbaik, Terburuk, Rata rata](#Kompleksitas-Algoritma-Terbaik,-Terburuk,-Rata-rata)
 - [Analisis Perbandingan Iteratif dan Rekursif](#Analisis-Perbandingan-Iteratif-dan-Rekursif)
@@ -112,11 +112,9 @@ Kompleksitas Konstan (O(1)): Pada implementasi ini, meskipun nama pengguna memil
 
 
 ## Kesimpulan
+Berdasarkan analisis yang telah dilakukan, algoritma rekursif terbukti lebih unggul dibandingkan dengan algoritma iteratif dalam konteks aplikasi "Kalkulator Hoki." Meskipun memiliki overhead memori tambahan, algoritma rekursif menawarkan kecepatan yang lebih tinggi dan fleksibilitas yang lebih baik untuk pengembangan aplikasi. Kelemahan yang melekat, seperti risiko stack overflow, dapat diabaikan karena ruang lingkup input yang terbatas pada tiga huruf.
 
-Kesimpulan dari proyek aplikasi "Kalkulator Hoki" ini menunjukkan bahwa kedua algoritma, yaitu iteratif dan rekursif, memiliki kelebihan dan kekurangan masing-masing dalam konteks penerapan pada aplikasi ini. Berdasarkan hasil analisis, algoritma iteratif lebih efisien dalam hal waktu eksekusi dan penggunaan memori, terutama pada input yang besar, karena tidak terpengaruh oleh batasan kedalaman rekursi dan overhead call stack. Di sisi lain, algoritma rekursif dapat menjadi pilihan pada masalah yang lebih cocok untuk dibagi menjadi sub-masalah, tetapi performanya menurun seiring dengan peningkatan ukuran input, terutama pada kasus besar yang dapat menyebabkan stack overflow.
-
-Secara keseluruhan, aplikasi "Kalkulator Hoki" ini berhasil mengimplementasikan kedua algoritma tersebut dengan baik, namun untuk aplikasi yang lebih efisien dan scalable pada berbagai ukuran input, algoritma iteratif lebih disarankan. Hasil pengukuran waktu eksekusi dan analisis kompleksitas menunjukkan bahwa algoritma iteratif memiliki performa yang lebih stabil dan lebih cepat pada kondisi yang lebih bervariasi, menjadikannya pilihan yang lebih optimal untuk aplikasi yang membutuhkan kecepatan dan efisiensi dalam pengolahan data masukan besar.
-
+Penggunaan algoritma rekursif memberikan bukti nyata bahwa pemilihan algoritma yang sesuai dapat memberikan dampak signifikan pada performa sistem. Hal ini menegaskan pentingnya evaluasi mendalam dalam memilih metode komputasi yang paling tepat, bahkan untuk aplikasi dengan tugas yang terbilang sederhana.
 
 ## Reference
 [1] S. Author, "Ramalan Di Era Digital: Pengaruh Video Tiktok Terkait Kepercayaan Remaja Kepada," ResearchGate. [Online]. Available: https://www.researchgate.net/publication/376456580_Ramalan_Di_Era_Digital_Pengaruh_Video_Tiktok_Terkait_Kepercayaan_Remaja_Kepada. [Accessed: Dec. 22, 2024].
