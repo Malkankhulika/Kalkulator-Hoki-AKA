@@ -85,7 +85,7 @@ Grafik perbandingan waktu eksekusi (running time) antara algoritma rekursif dan 
 Namun, meskipun rekursi menunjukkan keunggulan dalam hal waktu eksekusi, perbedaan yang terjadi pada data ini mengindikasikan bahwa faktor lain, seperti kompleksitas input dan implementasi algoritma, juga mempengaruhi kinerja masing-masing metode. Algoritma iteratif, meskipun lebih lambat secara umum dalam dataset ini, cenderung lebih stabil dan memiliki kontrol yang lebih baik terhadap alur eksekusi, serta lebih mudah dioptimalkan dalam beberapa kasus [5]. Oleh karena itu, pemilihan antara rekursif dan iteratif harus mempertimbangkan berbagai aspek, seperti efisiensi waktu, kebutuhan memori, dan kompleksitas implementasi, yang dapat berbeda tergantung pada konteks aplikasi dan karakteristik masalah yang dihadapi.
 
 
-## Analisis Perbandingan Iteratif dan Rekursif
+## Analisis Perbandingan Algoritma Iteratif dan Rekursif
 #### Kompleksitas Waktu
 - Algoritma Iteratif:
 
