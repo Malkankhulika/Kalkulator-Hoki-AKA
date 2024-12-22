@@ -8,6 +8,7 @@
 - [Struktur Program](#Struktur-Program)
 - [Deskripsi Algoritma](#Deskripsi-Algoritma)
 - [Grafik Perbandingan Running Time](#Grafik-Perbandingan-Running-Time)
+- [Kompleksitas Algoritma](#Kompleksitas-Algoritma)
 - [Analisis Perbandingan Iteratif dan Rekursif](#Analisis-Perbandingan-Iteratif-dan-Rekursif)
 - [Kesimpulan](#Kesimpulan)
 - [Referensi](#Referensi)
@@ -83,6 +84,12 @@ Penjelasan struktur dan elemen dalam program kalkulator hoki
 Grafik perbandingan waktu eksekusi (running time) antara algoritma rekursif dan iteratif pada "kalkulator hoki" menunjukkan variasi kinerja kedua metode dalam menyelesaikan tugas yang sama. Secara umum, hasil menunjukkan bahwa algoritma rekursif memiliki waktu eksekusi yang lebih rendah dibandingkan algoritma iteratif pada sebagian besar kasus. Hal ini mengindikasikan bahwa rekursi, dengan mekanisme pemanggilan fungsi berulang, lebih efisien dalam menyelesaikan perhitungan yang melibatkan submasalah yang berulang. Keunggulan rekursi ini terlihat terutama pada individu dengan waktu eksekusi yang lebih cepat, meskipun beberapa individu menunjukkan perbedaan waktu yang lebih kecil atau bahkan lebih tinggi pada algoritma iteratif [3]. Hal ini sejalan dengan temuan dari penelitian sebelumnya yang menunjukkan bahwa rekursi seringkali lebih cepat dalam kasus masalah yang terstruktur secara rekursif, seperti pada perhitungan pohon atau grafik [4].
 
 Namun, meskipun rekursi menunjukkan keunggulan dalam hal waktu eksekusi, perbedaan yang terjadi pada data ini mengindikasikan bahwa faktor lain, seperti kompleksitas input dan implementasi algoritma, juga mempengaruhi kinerja masing-masing metode. Algoritma iteratif, meskipun lebih lambat secara umum dalam dataset ini, cenderung lebih stabil dan memiliki kontrol yang lebih baik terhadap alur eksekusi, serta lebih mudah dioptimalkan dalam beberapa kasus [5]. Oleh karena itu, pemilihan antara rekursif dan iteratif harus mempertimbangkan berbagai aspek, seperti efisiensi waktu, kebutuhan memori, dan kompleksitas implementasi, yang dapat berbeda tergantung pada konteks aplikasi dan karakteristik masalah yang dihadapi.
+
+## Kompleksitas Algoritma
+Kompleksitas Waktu pada kasus terbaik, terburuk, dan rata-rata dari "Kalkulator Hoki" adalah semua sama, karena batasan maksimal yang dieksekusi selalu sama yaitu 3 Huruf sehingga Algoritma hanya akan memproses 3 huruf pertama yang diinputkan terlepas dari panjang nama, sehingga jumlah iterasi atau panggilan rekursif tidak pernah melebihi 3. Kemudian operasi konstan setiap hurufnya memerlukan waktu konstan untuk konversi ke nilai numerik dan penjumlahan. Dengan membatasi iterasi atau rekursi, algoritma 8memastikan stabilitas waktu eksekusi untuk nama pendek () maupun panjang (). 
+
+Kompleksitas Konstan (O(1)): Pada implementasi ini, meskipun nama pengguna memiliki panjang yang berbeda, algoritma hanya memproses tiga huruf pertama. Oleh karena itu, waktu eksekusi tidak bergantung pada panjang input setelah mencapai tiga huruf, menjadikannya memiliki kelas efisiensi konstan.Dalam konteks besar, ini termasuk algoritma yang sangat efisien karena waktu eksekusinya tidak meningkat seiring bertambahnya ukuran input (selama batasan tiga huruf dipatuhi). Sehingga kelas efisiensi dari "Kalkulator Hoki" adalah O(1), atau dikenal sebagai algoritma dengan efisiensi konstan. Hal ini menunjukkan bahwa algoritma tersebut optimal untuk tujuan spesifiknya, yaitu menghitung skor hoki dengan pembatasan tiga huruf.
+
 
 
 ## Analisis Perbandingan Algoritma Iteratif dan Rekursif
