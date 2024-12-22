@@ -4,7 +4,7 @@
 
 ## Daftar Isi
 
-- [Studi Kasus](#GambaranumumMonkeyPox)
+- [Studi Kasus](#StudiKasus)
 - [Struktur Program](#GambaranumumMonkeyPox)
 - [Deskripsi Algoritma](#GambaranumumMonkeyPox)
 - [Grafik Perbandingan Running Time](#Reference)
@@ -12,7 +12,7 @@
 - [Kesimpulan](#Conclusion)
 - [Referensi](#Reference)
   
-## Study Case
+## Studi Kasus
 Kalkulator Hoki merupakan sebuah aplikasi interaktif yang dirancang untuk menghitung tingkat keberuntungan seseorang berdasarkan tiga huruf pertama dari nama panggilan mereka. Proses penghitungan dilakukan dengan menjumlahkan nilai numerik yang merepresentasikan huruf dalam alfabet (A=1, B=2, ..., Z=26), kemudian melibatkan operasi tambahan untuk menghasilkan skor keberuntungan (hoki) akhir.
 
 Gagasan pengembangan aplikasi ini berakar dari fenomena rasa penasaran manusia terhadap hal-hal yang berkaitan dengan peramalan, seperti angka keberuntungan, zodiak, atau ramalan lainnya. Studi menunjukkan bahwa ramalan zodiak, misalnya, memiliki pengaruh signifikan terhadap kepercayaan remaja, terutama melalui media digital seperti video TikTok [1]. Selain itu, fenomena ramalan golongan darah di Jepang juga mencerminkan bagaimana masyarakat mengaitkan aspek-aspek kehidupan mereka dengan prediksi berbasis kepercayaan tradisional [2]. Hal ini menggambarkan ketertarikan alami manusia terhadap prediksi berbasis data atau simbolik.
