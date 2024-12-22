@@ -6,6 +6,7 @@
 
 - [Studi Kasus](#Studi-Kasus)
 - [Struktur Program](#Struktur-Program)
+- [Deskripsi Program](#Deskripsi-Program)
 - [Deskripsi Algoritma](#Deskripsi-Algoritma)
 - [Grafik Perbandingan Running Time](#Grafik-Perbandingan-Running-Time)
 - [Analisis Perbandingan Iteratif dan Rekursif](#Analisis-Perbandingan-Iteratif-dan-Rekursif)
@@ -19,6 +20,10 @@ Gagasan ini berakar dari fenomena rasa penasaran manusia terhadap hal-hal yang b
 
 Dengan menggunakan pendekatan sederhana berbasis penghitungan numerik, aplikasi ini tidak hanya menawarkan pengalaman yang menarik bagi pengguna, tetapi juga memberikan peluang untuk mengeksplorasi efisiensi algoritma dalam implementasi dunia nyata. Dalam konteks studi kasus ini, fokus utama adalah membandingkan efisiensi algoritma iteratif dan rekursif yang digunakan dalam penghitungan skor hoki. Perbandingan tersebut dilakukan melalui analisis kompleksitas waktu asimtotik serta pengukuran waktu eksekusi dengan berbagai ukuran masukan. Studi ini diharapkan dapat memberikan pemahaman yang lebih mendalam tentang pentingnya pemilihan algoritma yang efisien dalam menyelesaikan permasalahan komputasi.
 
+- **Hasil dan Manfaat**
+- Pengalaman Pengguna: Program ini berhasil menciptakan pengalaman yang menyenangkan dan interaktif, meningkatkan keterlibatan pengguna.
+- Statistik yang Berguna: Dengan menyimpan hasil sebelumnya, pengguna dapat melacak perkembangan hoki mereka, yang menambah nilai lebih pada program.
+- Visualisasi yang Menarik: Penggunaan warna untuk menampilkan hasil hoki membuat informasi lebih mudah dipahami dan menarik secara visual.
 
 ## Struktur Program
 ![image](https://github.com/user-attachments/assets/b3ba1621-839b-4215-b41e-1381f14366fd)
@@ -44,6 +49,18 @@ Penjelasan struktur dan elemen dalam program kalkulator hoki
     
    credentials.json merupakan file konfigurasi yang menyimpan data privat, seperti mode operasi (iteratif atau rekursif) yang digunakan oleh backend.
 
+## Deskripsi Program
+- Input Pengguna: Program meminta pengguna untuk memasukkan nama panggilan mereka.
+- Perhitungan Hoki:
+  a. Mengambil tiga huruf pertama dari nama yang dimasukkan.
+  b. Menghitung nilai numerik untuk setiap huruf berdasarkan urutan abjad (A=1, B=2, ..., Z=26).
+  c. Menambahkan nilai dari tanggal dan bulan saat ini untuk mendapatkan total hoki.
+- Visualisasi Hasil: Hasil hoki ditampilkan dengan warna:
+  a. Merah untuk hoki di bawah 50%.
+  b. Kuning untuk hoki antara 50% hingga 80%.
+  c. Hijau untuk hoki di atas 80%.
+- Statistik Hoki: Program menyimpan hasil hoki sebelumnya, memungkinkan pengguna untuk melihat statistik seperti rata-rata hoki, hoki tertinggi, dan hoki terendah.
+- Interaksi Pengguna: Setelah menampilkan hasil, pengguna diberikan opsi untuk bermain kembali atau tidak. Jika memilih untuk tidak bermain lagi, program menampilkan pesan perpisahan yang positif, berharap hoki mereka akan terus berkembang.
 
 ## Deskripsi Algoritma
 - Iteratif
