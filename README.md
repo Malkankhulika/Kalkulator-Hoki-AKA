@@ -46,18 +46,18 @@ Penjelasan struktur dan elemen dalam program kalkulator hoki
 
 
 ## Deskripsi Algoritma
-### Iteratif
-Algoritma iteratif menggunakan pendekatan berbasis perulangan (loop) untuk menghitung nilai hoki. Tiga huruf pertama dari nama panggilan pengguna diakses satu per satu, nilai numeriknya dihitung dengan rumus (ord(huruf.upper()) - 64), kemudian semua nilai dijumlahkan dalam sebuah variabel akumulator. Setelah itu, skor hoki dihitung dengan menerapkan modulasi sederhana atau operasi numerik lainnya pada hasil penjumlahan.
+- Iteratif
 
-Pendekatan iteratif dipilih karena efisien dalam penggunaan memori, dengan kompleksitas waktu sebesar 𝑂 (𝑛), di mana 𝑛 adalah panjang nama (maksimal 3 iterasi). Pendekatan ini cocok untuk penghitungan sederhana pada aplikasi interaktif seperti "Kalkulator Hoki," di mana kecepatan dan keandalan sangat penting untuk pengalaman pengguna.
+  Algoritma iteratif menggunakan pendekatan berbasis perulangan (loop) untuk menghitung nilai hoki. Tiga huruf pertama dari nama panggilan pengguna diakses satu per satu, nilai numeriknya dihitung dengan rumus (ord(huruf.upper()) - 64), kemudian semua nilai dijumlahkan dalam sebuah variabel akumulator. Setelah itu, skor hoki dihitung dengan menerapkan modulasi sederhana atau operasi numerik lainnya pada hasil penjumlahan.
+  Pendekatan iteratif dipilih karena efisien dalam penggunaan memori, dengan kompleksitas waktu sebesar 𝑂 (𝑛), di mana 𝑛 adalah panjang nama (maksimal 3 iterasi). Pendekatan ini cocok untuk penghitungan sederhana pada aplikasi interaktif seperti "Kalkulator Hoki," di mana kecepatan dan keandalan sangat penting untuk pengalaman pengguna.
 
-### Rekursif
-Algoritma rekursif memanfaatkan pemanggilan fungsi berulang untuk menghitung nilai hoki. Fungsi ini secara rekursif menjumlahkan nilai huruf pertama dari nama panggilan pengguna dengan hasil pemanggilan fungsi yang sama pada substring nama tanpa huruf pertama, hingga mencapai kondisi dasar di mana nama kosong atau memiliki panjang 0. Operasi pada hasil akhir dilakukan untuk menghasilkan skor hoki.
+- Rekursif
+  Algoritma rekursif memanfaatkan pemanggilan fungsi berulang untuk menghitung nilai hoki. Fungsi ini secara rekursif menjumlahkan nilai huruf pertama dari nama panggilan pengguna dengan hasil pemanggilan fungsi yang sama pada substring nama tanpa huruf pertama, hingga mencapai kondisi dasar di mana nama kosong atau memiliki panjang 0. Operasi pada hasil akhir dilakukan untuk menghasilkan skor hoki.
+  Pendekatan rekursif relevan untuk studi kasus ini karena memberikan solusi yang elegan dan modular. Kompleksitas waktu juga sebesar  𝑂 (𝑛), tetapi memiliki overhead memori tambahan akibat stack rekursi. Studi perbandingan antara iterasi dan rekursi menjadi penting untuk memahami bagaimana pilihan algoritma dapat memengaruhi performa pada penghitungan yang sederhana namun sering dilakukan, seperti pada "Kalkulator Hoki."
 
-Pendekatan rekursif relevan untuk studi kasus ini karena memberikan solusi yang elegan dan modular. Kompleksitas waktu juga sebesar  𝑂 (𝑛), tetapi memiliki overhead memori tambahan akibat stack rekursi. Studi perbandingan antara iterasi dan rekursi menjadi penting untuk memahami bagaimana pilihan algoritma dapat memengaruhi performa pada penghitungan yang sederhana namun sering dilakukan, seperti pada "Kalkulator Hoki."
+- Relevansi Studi Kasus
 
-### Relevansi Studi Kasus
-Kedua algoritma dipilih berdasarkan kemampuan mereka untuk menyelesaikan perhitungan dengan efisiensi tinggi dan skalabilitas yang cukup baik. Pendekatan iteratif lebih sesuai untuk aplikasi yang menuntut efisiensi memori, sementara pendekatan rekursif memberikan perspektif tentang struktur algoritma yang lebih abstrak dan relevan untuk analisis kompleksitas. Studi perbandingan iterasi dan rekursi di "Kalkulator Hoki" memberikan gambaran nyata tentang dampak pemilihan algoritma pada performa sistem dalam tugas-tugas sehari-hari.
+  Kedua algoritma dipilih berdasarkan kemampuan mereka untuk menyelesaikan perhitungan dengan efisiensi tinggi dan skalabilitas yang cukup baik. Pendekatan iteratif lebih sesuai untuk aplikasi yang menuntut efisiensi memori, sementara pendekatan rekursif memberikan perspektif tentang struktur algoritma yang lebih abstrak dan relevan untuk analisis kompleksitas. Studi perbandingan iterasi dan rekursi di "Kalkulator Hoki" memberikan gambaran nyata tentang dampak pemilihan algoritma pada performa sistem dalam tugas-tugas sehari-hari.
 
 
 ## Grafik Perbandingan Running Timne
