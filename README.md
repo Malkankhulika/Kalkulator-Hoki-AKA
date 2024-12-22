@@ -57,9 +57,12 @@ Algoritma rekursif memanfaatkan pemanggilan fungsi berulang untuk menghitung nil
 
 Pendekatan rekursif relevan untuk studi kasus ini karena memberikan solusi yang elegan dan modular. Kompleksitas waktu juga sebesar  𝑂 (𝑛), tetapi memiliki overhead memori tambahan akibat stack rekursi. Studi perbandingan antara iterasi dan rekursi menjadi penting untuk memahami bagaimana pilihan algoritma dapat memengaruhi performa pada penghitungan yang sederhana namun sering dilakukan, seperti pada "Kalkulator Hoki."
 
-#### Relevansi Studi Kasus
+### Relevansi Studi Kasus
 Kedua algoritma dipilih berdasarkan kemampuan mereka untuk menyelesaikan perhitungan dengan efisiensi tinggi dan skalabilitas yang cukup baik. Pendekatan iteratif lebih sesuai untuk aplikasi yang menuntut efisiensi memori, sementara pendekatan rekursif memberikan perspektif tentang struktur algoritma yang lebih abstrak dan relevan untuk analisis kompleksitas. Studi perbandingan iterasi dan rekursi di "Kalkulator Hoki" memberikan gambaran nyata tentang dampak pemilihan algoritma pada performa sistem dalam tugas-tugas sehari-hari.
 
+
+## Grafik Perbandingan Running Timne
+![image](https://github.com/user-attachments/assets/f70fdd15-d783-49b7-9aab-b5a28d08e1a9)
 
 ## Performance Comparisom
 Pada Mei 20
