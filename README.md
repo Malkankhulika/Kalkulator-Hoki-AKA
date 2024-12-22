@@ -29,16 +29,20 @@ Penjelasan struktur dan elemen dalam program kalkulator hoki
    
    app.py merupakan file utama dalam program yang bertanggung jawab untuk menjalankan backend menggunakan framework Flask. File ini mengatur logika perhitungan hoki dengan mengimplementasikan dua versi algoritma, yaitu iteratif dan rekursif. Selain itu, file ini mengatur rute untuk menerima input dari frontend, memprosesnya dengan algoritma yang sesuai berdasarkan konfigurasi, dan mengembalikan hasil perhitungan ke frontend dalam format JSON.
 
-3. Folder static
+2. Folder static
+   
    Folder static menyimpan sumber daya statis yang digunakan untuk meningkatkan estetika tampilan aplikasi. File utama di dalamnya adalah style.css, yang berisi definisi gaya visual seperti tata letak, warna, dan font. File ini bertujuan untuk memastikan pengalaman pengguna lebih menarik secara visual serta mendukung antarmuka yang responsif.
 
-4. Folder templates
+3. Folder templates
+   
    Folder templates memuat file index.html, yaitu template HTML yang menjadi antarmuka utama pengguna. File ini menyediakan formulir input untuk memasukkan nama pengguna, tombol untuk menghitung tingkat hoki, dan area hasil yang dinamis untuk menampilkan skor hoki yang dihitung oleh backend. Struktur file ini mendukung komunikasi dengan backend melalui mekanisme asinkron.
 
-5. File requirements.txt
+4. File requirements.txt
+   
    File ini mendokumentasikan semua pustaka yang diperlukan untuk menjalankan aplikasi, seperti Flask dan pustaka pendukung lainnya. Keberadaan file ini bertujuan untuk mempermudah instalasi dependensi dengan menggunakan perintah pip install -r requirements.txt, sehingga memastikan aplikasi dapat dijalankan pada lingkungan yang konsisten.
 
-6. File credentials.json
+5. File credentials.json
+    
    credentials.json merupakan file konfigurasi yang menyimpan data privat, seperti mode operasi (iteratif atau rekursif) yang digunakan oleh backend. File ini tidak dijelaskan secara rinci karena bersifat rahasia, namun berperan penting dalam menentukan perilaku algoritma yang diterapkan dalam app.py.
 
 
