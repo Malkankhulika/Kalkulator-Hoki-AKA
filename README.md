@@ -15,7 +15,7 @@
 ## Studi Kasus
 Kalkulator Hoki merupakan sebuah aplikasi interaktif yang dirancang untuk menghitung tingkat keberuntungan seseorang berdasarkan tiga huruf pertama dari nama panggilan mereka. Proses penghitungan dilakukan dengan menjumlahkan nilai numerik yang merepresentasikan huruf dalam alfabet (A=1, B=2, ..., Z=26), kemudian melibatkan operasi tambahan untuk menghasilkan skor keberuntungan (hoki) akhir.
 
-Gagasan pengembangan aplikasi ini berakar dari fenomena rasa penasaran manusia terhadap hal-hal yang berkaitan dengan peramalan, seperti angka keberuntungan, zodiak, atau ramalan lainnya. Studi menunjukkan bahwa ramalan zodiak, misalnya, memiliki pengaruh signifikan terhadap kepercayaan remaja, terutama melalui media digital seperti video TikTok [1]. Selain itu, fenomena ramalan golongan darah di Jepang juga mencerminkan bagaimana masyarakat mengaitkan aspek-aspek kehidupan mereka dengan prediksi berbasis kepercayaan tradisional [2]. Hal ini menggambarkan ketertarikan alami manusia terhadap prediksi berbasis data atau simbolik.
+Gagasan ini berakar dari fenomena rasa penasaran manusia terhadap hal-hal yang berkaitan dengan peramalan, seperti angka keberuntungan, zodiak, atau ramalan lainnya. Studi menunjukkan bahwa ramalan zodiak, misalnya, memiliki pengaruh signifikan terhadap kepercayaan remaja, terutama melalui media digital seperti video TikTok [1]. Selain itu, fenomena ramalan golongan darah di Jepang juga mencerminkan bagaimana masyarakat mengaitkan aspek-aspek kehidupan mereka dengan prediksi berbasis kepercayaan tradisional [2]. Hal ini menggambarkan ketertarikan alami manusia terhadap prediksi berbasis data atau simbolik.
 
 Dengan menggunakan pendekatan sederhana berbasis penghitungan numerik, aplikasi ini tidak hanya menawarkan pengalaman yang menarik bagi pengguna, tetapi juga memberikan peluang untuk mengeksplorasi efisiensi algoritma dalam implementasi dunia nyata. Dalam konteks studi kasus ini, fokus utama adalah membandingkan efisiensi algoritma iteratif dan rekursif yang digunakan dalam penghitungan skor hoki. Perbandingan tersebut dilakukan melalui analisis kompleksitas waktu asimtotik serta pengukuran waktu eksekusi dengan berbagai ukuran masukan. Studi ini diharapkan dapat memberikan pemahaman yang lebih mendalam tentang pentingnya pemilihan algoritma yang efisien dalam menyelesaikan permasalahan komputasi.
 
@@ -26,7 +26,7 @@ Dengan menggunakan pendekatan sederhana berbasis penghitungan numerik, aplikasi 
 Penjelasan struktur dan elemen dalam program kalkulator hoki
 1. app.py
    
-   app.py merupakan file utama dalam program yang bertanggung jawab untuk menjalankan backend menggunakan framework Flask. File ini mengatur logika perhitungan hoki dengan mengimplementasikan dua versi algoritma, yaitu iteratif dan rekursif. Selain itu, file ini mengatur rute untuk menerima input dari frontend, memprosesnya dengan algoritma yang sesuai berdasarkan konfigurasi, dan mengembalikan hasil perhitungan ke frontend dalam format JSON.
+   app.py merupakan file utama dalam program untuk menjalankan backend menggunakan framework Flask. File ini mengatur logika perhitungan hoki dengan mengimplementasikan dua versi algoritma, yaitu iteratif dan rekursif. Selain itu, file ini mengatur rute untuk menerima input dari frontend, memprosesnya dengan algoritma yang sesuai berdasarkan konfigurasi, dan mengembalikan hasil perhitungan ke frontend dalam format JSON.
 
 2. Folder static
    
@@ -42,19 +42,19 @@ Penjelasan struktur dan elemen dalam program kalkulator hoki
 
 5. File credentials.json
     
-   credentials.json merupakan file konfigurasi yang menyimpan data privat, seperti mode operasi (iteratif atau rekursif) yang digunakan oleh backend. File ini tidak dijelaskan secara rinci karena bersifat rahasia, namun berperan penting dalam menentukan perilaku algoritma yang diterapkan dalam app.py.
+   credentials.json merupakan file konfigurasi yang menyimpan data privat, seperti mode operasi (iteratif atau rekursif) yang digunakan oleh backend.
 
 
 ## Deskripsi Algoritma
 - Iteratif
 
   Algoritma iteratif menggunakan pendekatan berbasis perulangan (loop) untuk menghitung nilai hoki. Tiga huruf pertama dari nama panggilan pengguna diakses satu per satu, nilai numeriknya dihitung dengan rumus (ord(huruf.upper()) - 64), kemudian semua nilai dijumlahkan dalam sebuah variabel akumulator. Setelah itu, skor hoki dihitung dengan menerapkan modulasi sederhana atau operasi numerik lainnya pada hasil penjumlahan.
-  Pendekatan iteratif dipilih karena efisien dalam penggunaan memori, dengan kompleksitas waktu sebesar 𝑂 (𝑛), di mana 𝑛 adalah panjang nama (maksimal 3 iterasi). Pendekatan ini cocok untuk penghitungan sederhana pada aplikasi interaktif seperti "Kalkulator Hoki," di mana kecepatan dan keandalan sangat penting untuk pengalaman pengguna.
+  Pendekatan iteratif dipilih karena efisien dalam penggunaan memori, dengan kompleksitas waktu sebesar 𝑂 (𝑛), di mana 𝑛 adalah panjang nama (maksimal 3 iterasi). Sehingga pendekatan ini cocok untuk penghitungan sederhana pada aplikasi interaktif seperti "Kalkulator Hoki," di mana kecepatan dan keandalan sangat penting untuk pengalaman pengguna.
 
 - Rekursif
   
   Algoritma rekursif memanfaatkan pemanggilan fungsi berulang untuk menghitung nilai hoki. Fungsi ini secara rekursif menjumlahkan nilai huruf pertama dari nama panggilan pengguna dengan hasil pemanggilan fungsi yang sama pada substring nama tanpa huruf pertama, hingga mencapai kondisi dasar di mana nama kosong atau memiliki panjang 0. Operasi pada hasil akhir dilakukan untuk menghasilkan skor hoki.
-  Pendekatan rekursif relevan untuk studi kasus ini karena memberikan solusi yang elegan dan modular. Kompleksitas waktu juga sebesar  𝑂 (𝑛), tetapi memiliki overhead memori tambahan akibat stack rekursi. Studi perbandingan antara iterasi dan rekursi menjadi penting untuk memahami bagaimana pilihan algoritma dapat memengaruhi performa pada penghitungan yang sederhana namun sering dilakukan, seperti pada "Kalkulator Hoki."
+  Pendekatan rekursif relevan untuk studi kasus ini karena memberikan solusi yang elegan dan modular. Kompleksitas waktu juga sebesar 𝑂 (𝑛), tetapi memiliki overhead memori tambahan akibat stack rekursi. Studi perbandingan antara iterasi dan rekursi menjadi penting untuk memahami bagaimana pilihan algoritma dapat memengaruhi performa pada penghitungan yang sederhana namun sering dilakukan, seperti pada "Kalkulator Hoki."
 
 - Relevansi Studi Kasus
 
