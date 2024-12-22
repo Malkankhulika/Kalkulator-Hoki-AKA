@@ -52,6 +52,7 @@ Penjelasan struktur dan elemen dalam program kalkulator hoki
   Pendekatan iteratif dipilih karena efisien dalam penggunaan memori, dengan kompleksitas waktu sebesar 𝑂 (𝑛), di mana 𝑛 adalah panjang nama (maksimal 3 iterasi). Pendekatan ini cocok untuk penghitungan sederhana pada aplikasi interaktif seperti "Kalkulator Hoki," di mana kecepatan dan keandalan sangat penting untuk pengalaman pengguna.
 
 - Rekursif
+  
   Algoritma rekursif memanfaatkan pemanggilan fungsi berulang untuk menghitung nilai hoki. Fungsi ini secara rekursif menjumlahkan nilai huruf pertama dari nama panggilan pengguna dengan hasil pemanggilan fungsi yang sama pada substring nama tanpa huruf pertama, hingga mencapai kondisi dasar di mana nama kosong atau memiliki panjang 0. Operasi pada hasil akhir dilakukan untuk menghasilkan skor hoki.
   Pendekatan rekursif relevan untuk studi kasus ini karena memberikan solusi yang elegan dan modular. Kompleksitas waktu juga sebesar  𝑂 (𝑛), tetapi memiliki overhead memori tambahan akibat stack rekursi. Studi perbandingan antara iterasi dan rekursi menjadi penting untuk memahami bagaimana pilihan algoritma dapat memengaruhi performa pada penghitungan yang sederhana namun sering dilakukan, seperti pada "Kalkulator Hoki."
 
@@ -69,16 +70,36 @@ Namun, meskipun rekursi menunjukkan keunggulan dalam hal waktu eksekusi, perbeda
 
 
 ## Analisis Perbandingan Iteratif dan Rekursif
-Pada Mei 20
+#### Kompleksitas Waktu
+- Algoritma Iteratif:
+
+  Dalam algoritma iteratif, kita menggunakan loop untuk mengiterasi setiap elemen input dan menghitung skor atau probabilitas terkait. Karena setiap elemen dihitung dalam urutan linier, maka kompleksitas waktu dari algoritma ini adalah O(n). Dengan proses setiap iterasi dalam loop memerlukan waktu yang konstan (misalnya perhitungan sederhana), sehingga waktu total yang dibutuhkan akan sebanding dengan jumlah elemen dalam input.
+
+- Algoritma Rekursif:
+
+Pada algoritma rekursif, kita memanggil fungsi yang sama berulang kali dengan ukuran masalah yang lebih kecil, sampai mencapai kondisi dasar. Jika kedalaman rekursi sebanding dengan ukuran input 𝑛, maka kompleksitas waktu algoritma ini juga adalah O(n). Dengan vn dari setiap pemanggilan fungsi rekursif akan memakan waktu yang konstan, tetapi karena ada overhead tambahan dari pengelolaan call stack, waktu eksekusi cenderung lebih besar dibandingkan dengan algoritma iteratif untuk input yang sama.
+
+
+2. Penggunaan Memori
+Penggunaan memori adalah faktor penting yang memengaruhi efisiensi algoritma, terutama ketika bekerja dengan ukuran input besar.
+
+Algoritma Iteratif:
+
+Algoritma iteratif menggunakan memori konstan karena hanya membutuhkan sedikit ruang untuk variabel-variabel yang digunakan dalam loop. Kompleksitas memori dari algoritma ini adalah O(1), artinya jumlah memori yang digunakan tidak tergantung pada ukuran input.
+Proses: Semua operasi dilakukan dalam satu ruang memori, tanpa memerlukan rekursi tambahan atau penggunaan stack.
+Algoritma Rekursif:
+
+Algoritma rekursif memerlukan memori tambahan karena setiap pemanggilan fungsi rekursif menambah data pada call stack. Oleh karena itu, kompleksitas memori dari algoritma rekursif adalah O(n), karena kedalaman rekursi sebanding dengan jumlah elemen input.
+Proses: Pada setiap panggilan rekursif, memori akan digunakan untuk menyimpan status eksekusi dan variabel sementara sampai fungsi mencapai kondisi dasar.
 
 
 
 
 ## Kesimpulan
-Pada Mei 20
 
+Kesimpulan dari proyek aplikasi "Kalkulator Hoki" ini menunjukkan bahwa kedua algoritma, yaitu iteratif dan rekursif, memiliki kelebihan dan kekurangan masing-masing dalam konteks penerapan pada aplikasi ini. Berdasarkan hasil analisis, algoritma iteratif lebih efisien dalam hal waktu eksekusi dan penggunaan memori, terutama pada input yang besar, karena tidak terpengaruh oleh batasan kedalaman rekursi dan overhead call stack. Di sisi lain, algoritma rekursif dapat menjadi pilihan pada masalah yang lebih cocok untuk dibagi menjadi sub-masalah, tetapi performanya menurun seiring dengan peningkatan ukuran input, terutama pada kasus besar yang dapat menyebabkan stack overflow.
 
-
+Secara keseluruhan, aplikasi "Kalkulator Hoki" ini berhasil mengimplementasikan kedua algoritma tersebut dengan baik, namun untuk aplikasi yang lebih efisien dan scalable pada berbagai ukuran input, algoritma iteratif lebih disarankan. Hasil pengukuran waktu eksekusi dan analisis kompleksitas menunjukkan bahwa algoritma iteratif memiliki performa yang lebih stabil dan lebih cepat pada kondisi yang lebih bervariasi, menjadikannya pilihan yang lebih optimal untuk aplikasi yang membutuhkan kecepatan dan efisiensi dalam pengolahan data masukan besar.
 
 
 ## Reference
