@@ -4,7 +4,7 @@
 
 ## Daftar Isi
 
-- [Studi Kasus](#StudiKasus)
+- [Studi Kasus](#Studi-Kasus)
 - [Struktur Program](#GambaranumumMonkeyPox)
 - [Deskripsi Algoritma](#GambaranumumMonkeyPox)
 - [Grafik Perbandingan Running Time](#Reference)
