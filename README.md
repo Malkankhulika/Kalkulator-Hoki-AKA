@@ -82,13 +82,11 @@ Namun, meskipun rekursi menunjukkan keunggulan dalam hal waktu eksekusi, perbeda
 #### Penggunaan Memori
 - Algoritma Iteratif:
 
-  Algoritma iteratif menggunakan memori konstan karena hanya membutuhkan sedikit ruang untuk variabel-variabel yang digunakan dalam loop. Kompleksitas memori dari algoritma ini adalah O(1), artinya jumlah memori yang digunakan tidak tergantung pada ukuran input.
-Proses: Semua operasi dilakukan dalam satu ruang memori, tanpa memerlukan rekursi tambahan atau penggunaan stack.
+  Algoritma iteratif menggunakan memori konstan karena hanya membutuhkan sedikit ruang untuk variabel-variabel yang digunakan dalam loop. Kompleksitas memori dari algoritma ini adalah O(1), artinya jumlah memori yang digunakan tidak tergantung pada ukuran input. Dengan proses semua operasi dilakukan dalam satu ruang memori, tanpa memerlukan rekursi tambahan atau penggunaan stack.
 
 - Algoritma Rekursif:
 
-  Algoritma rekursif memerlukan memori tambahan karena setiap pemanggilan fungsi rekursif menambah data pada call stack. Oleh karena itu, kompleksitas memori dari algoritma rekursif adalah O(n), karena kedalaman rekursi sebanding dengan jumlah elemen input.
-Proses: Pada setiap panggilan rekursif, memori akan digunakan untuk menyimpan status eksekusi dan variabel sementara sampai fungsi mencapai kondisi dasar.
+  Algoritma rekursif memerlukan memori tambahan karena setiap pemanggilan fungsi rekursif menambah data pada call stack. Oleh karena itu, kompleksitas memori dari algoritma rekursif adalah O(n), karena kedalaman rekursi sebanding dengan jumlah elemen input. Dengan proses pada setiap panggilan rekursif, memori akan digunakan untuk menyimpan status eksekusi dan variabel sementara sampai fungsi mencapai kondisi dasar.
 
 
 
