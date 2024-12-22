@@ -20,8 +20,9 @@ Gagasan pengembangan aplikasi ini berakar dari fenomena rasa penasaran manusia t
 Dengan menggunakan pendekatan sederhana berbasis penghitungan numerik, aplikasi ini tidak hanya menawarkan pengalaman yang menarik bagi pengguna, tetapi juga memberikan peluang untuk mengeksplorasi efisiensi algoritma dalam implementasi dunia nyata. Dalam konteks studi kasus ini, fokus utama adalah membandingkan efisiensi algoritma iteratif dan rekursif yang digunakan dalam penghitungan skor hoki. Perbandingan tersebut dilakukan melalui analisis kompleksitas waktu asimtotik serta pengukuran waktu eksekusi dengan berbagai ukuran masukan. Studi ini diharapkan dapat memberikan pemahaman yang lebih mendalam tentang pentingnya pemilihan algoritma yang efisien dalam menyelesaikan permasalahan komputasi.
 
 
-## Analisis dan Result
-![image](https://github.com/user-attachments/assets/2b8fa5bf-42ee-41fa-b6b5-4f2f4235b177)
+## Deskripsi Algoritma
+![image](https://github.com/user-attachments/assets/b3ba1621-839b-4215-b41e-1381f14366fd)
+
 
 Dataset ini terdiri dari dua folder utama:
 1.	Original Images:
