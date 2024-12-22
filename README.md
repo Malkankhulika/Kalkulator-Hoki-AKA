@@ -61,7 +61,7 @@ Penjelasan struktur dan elemen dalam program kalkulator hoki
 - Statistik Hoki: Program menyimpan hasil hoki sebelumnya, memungkinkan pengguna untuk melihat statistik seperti rata-rata hoki, hoki tertinggi, dan hoki terendah.
 - Interaksi Pengguna: Setelah menampilkan hasil, pengguna diberikan opsi untuk bermain kembali atau tidak. Jika memilih untuk tidak bermain lagi, program menampilkan pesan perpisahan yang positif, berharap hoki mereka akan terus berkembang.
 
-## Deskripsi Algoritma
+## Deskripsi Algoritma yang dipilih untuk menyelesaikan permasalahan
 - Iteratif
 
   Algoritma iteratif menggunakan pendekatan berbasis perulangan (loop) untuk menghitung nilai hoki. Tiga huruf pertama dari nama panggilan pengguna diakses satu per satu, nilai numeriknya dihitung dengan rumus (ord(huruf.upper()) - 64), kemudian semua nilai dijumlahkan dalam sebuah variabel akumulator. Setelah itu, skor hoki dihitung dengan menerapkan modulasi sederhana atau operasi numerik lainnya pada hasil penjumlahan.
