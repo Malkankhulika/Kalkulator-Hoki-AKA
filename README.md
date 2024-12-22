@@ -4,12 +4,13 @@
 
 ## Daftar Isi
 
-- [Study Case](#GambaranumumMonkeyPox)
-- [Analisis dan Result](#Reference)
+- [Studi Kasus](#GambaranumumMonkeyPox)
+- [Deskripsi Algoritma](#GambaranumumMonkeyPox)
+- [Grafik Perbandingan Running Time](#Reference)
 - [Performance Comparisom](#Reference)
-- [Itetarive Vs Rekursive](#Reference)
-- [Conclusion](#Conclusion)
-- [Reference](#Reference)
+- [Analisis Perbandingan Itetarive Vs Rekursive](#Reference)
+- [Kesimpulan](#Conclusion)
+- [Referensi](#Reference)
   
 ## Study Case
 
