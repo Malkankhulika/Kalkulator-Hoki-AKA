@@ -112,9 +112,11 @@ Berdasarkan analisis yang telah dilakukan, algoritma rekursif terbukti lebih ung
 Penggunaan algoritma rekursif memberikan bukti nyata bahwa pemilihan algoritma yang sesuai dapat memberikan dampak signifikan pada performa sistem. Hal ini menegaskan pentingnya evaluasi mendalam dalam memilih metode komputasi yang paling tepat, bahkan untuk aplikasi dengan tugas yang terbilang sederhana.
 
 ## Referensi
-[1] S. Author, "Ramalan Di Era Digital: Pengaruh Video Tiktok Terkait Kepercayaan Remaja Kepada," ResearchGate. [Online]. Available: https://www.researchgate.net/publication/376456580_Ramalan_Di_Era_Digital_Pengaruh_Video_Tiktok_Terkait_Kepercayaan_Remaja_Kepada. [Accessed: Dec. 22, 2024].
+[1] S. Author, "Ramalan Di Era Digital: Pengaruh Video Tiktok Terkait Kepercayaan Remaja Kepada," ResearchGate. [Online].
+Available: https://www.researchgate.net/publication/376456580_Ramalan_Di_Era_Digital_Pengaruh_Video_Tiktok_Terkait_Kepercayaan_Remaja_Kepada. [Accessed: Dec. 22, 2024].
 
-[2] S. Author, "Analysis of Japanese Culture Through Modern Media," Japanology Journal. [Online]. Available: https://journal.unair.ac.id/download-fullpapers-japanology87dbefda8b2full.pdf. [Accessed: Dec. 22, 2024].
+[2] S. Author, "Analysis of Japanese Culture Through Modern Media," Japanology Journal. [Online].
+Available: https://journal.unair.ac.id/download-fullpapers-japanology87dbefda8b2full.pdf. [Accessed: Dec. 22, 2024].
 
 [3] D. E. Knuth, The Art of Computer Programming, Volume 1: Fundamental Algorithms, Addison-Wesley, 1973.
 
