@@ -77,19 +77,17 @@ Namun, meskipun rekursi menunjukkan keunggulan dalam hal waktu eksekusi, perbeda
 
 - Algoritma Rekursif:
 
-Pada algoritma rekursif, kita memanggil fungsi yang sama berulang kali dengan ukuran masalah yang lebih kecil, sampai mencapai kondisi dasar. Jika kedalaman rekursi sebanding dengan ukuran input 𝑛, maka kompleksitas waktu algoritma ini juga adalah O(n). Dengan vn dari setiap pemanggilan fungsi rekursif akan memakan waktu yang konstan, tetapi karena ada overhead tambahan dari pengelolaan call stack, waktu eksekusi cenderung lebih besar dibandingkan dengan algoritma iteratif untuk input yang sama.
+  Pada algoritma rekursif, kita memanggil fungsi yang sama berulang kali dengan ukuran masalah yang lebih kecil, sampai mencapai kondisi dasar. Jika kedalaman rekursi sebanding dengan ukuran input 𝑛, maka kompleksitas waktu algoritma ini juga adalah O(n). Dengan vn dari setiap pemanggilan fungsi rekursif akan memakan waktu yang konstan, tetapi karena ada overhead tambahan dari pengelolaan call stack, waktu eksekusi cenderung lebih besar dibandingkan dengan algoritma iteratif untuk input yang sama.
 
+#### Penggunaan Memori
+- Algoritma Iteratif:
 
-2. Penggunaan Memori
-Penggunaan memori adalah faktor penting yang memengaruhi efisiensi algoritma, terutama ketika bekerja dengan ukuran input besar.
-
-Algoritma Iteratif:
-
-Algoritma iteratif menggunakan memori konstan karena hanya membutuhkan sedikit ruang untuk variabel-variabel yang digunakan dalam loop. Kompleksitas memori dari algoritma ini adalah O(1), artinya jumlah memori yang digunakan tidak tergantung pada ukuran input.
+  Algoritma iteratif menggunakan memori konstan karena hanya membutuhkan sedikit ruang untuk variabel-variabel yang digunakan dalam loop. Kompleksitas memori dari algoritma ini adalah O(1), artinya jumlah memori yang digunakan tidak tergantung pada ukuran input.
 Proses: Semua operasi dilakukan dalam satu ruang memori, tanpa memerlukan rekursi tambahan atau penggunaan stack.
-Algoritma Rekursif:
 
-Algoritma rekursif memerlukan memori tambahan karena setiap pemanggilan fungsi rekursif menambah data pada call stack. Oleh karena itu, kompleksitas memori dari algoritma rekursif adalah O(n), karena kedalaman rekursi sebanding dengan jumlah elemen input.
+- Algoritma Rekursif:
+
+  Algoritma rekursif memerlukan memori tambahan karena setiap pemanggilan fungsi rekursif menambah data pada call stack. Oleh karena itu, kompleksitas memori dari algoritma rekursif adalah O(n), karena kedalaman rekursi sebanding dengan jumlah elemen input.
 Proses: Pada setiap panggilan rekursif, memori akan digunakan untuk menyimpan status eksekusi dan variabel sementara sampai fungsi mencapai kondisi dasar.
 
 
