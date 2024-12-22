@@ -92,23 +92,13 @@ Kompleksitas Konstan (O(1)): Pada implementasi ini, meskipun nama pengguna memil
 
 
 ## Analisis Perbandingan Algoritma Iteratif dan Rekursif
-#### Kompleksitas Waktu
-- Algoritma Iteratif:
+Pada aplikasi "Kalkulator Hoki", perbandingan antara algoritma rekursif dan iteratif menunjukkan bahwa tidak ada perbedaan yang signifikan dalam kinerja kedua algoritma ini. Meskipun kedua pendekatan tersebut berbeda dalam cara mereka menyelesaikan permasalahan, kompleksitas waktu pada kedua algoritma adalah O(1), yang berarti waktu eksekusinya tetap konstan, terlepas dari panjang input, selama input terbatas pada tiga huruf pertama nama. Hal ini terjadi karena dalam kedua metode, hanya tiga huruf pertama yang dihitung, dan setiap operasi pada huruf-huruf tersebut dilakukan dalam waktu konstan.
 
-  Dalam algoritma iteratif, kita menggunakan loop untuk mengiterasi setiap elemen input dan menghitung skor atau probabilitas terkait. Karena setiap elemen dihitung dalam urutan linier, maka kompleksitas waktu dari algoritma ini adalah O(n). Dengan proses setiap iterasi dalam loop memerlukan waktu yang konstan (misalnya perhitungan sederhana), sehingga waktu total yang dibutuhkan akan sebanding dengan jumlah elemen dalam input.
+Dengan kompleksitas waktu yang O(1), baik algoritma iteratif maupun rekursif akan memiliki waktu running yang serupa untuk masalah ini. Tidak ada pengaruh signifikan terhadap kecepatan eksekusi ketika jumlah huruf input dibatasi hanya hingga tiga karakter. Oleh karena itu, baik algoritma rekursif maupun iteratif relevan dan memiliki performa yang hampir identik dalam konteks ini.
 
-- Algoritma Rekursif:
+Selain itu, meskipun algoritma rekursif dapat menambah beban penggunaan memori karena memerlukan call stack tambahan, permasalahan terkait stack overflow sangat tidak mungkin terjadi dalam aplikasi ini, karena kedalaman rekursi dibatasi hanya sampai tiga kali (untuk tiga huruf pertama). Oleh karena itu, risiko terjadinya stack overflow hampir tidak ada dalam kasus ini.
 
-  Pada algoritma rekursif, kita memanggil fungsi yang sama berulang kali dengan ukuran masalah yang lebih kecil, sampai mencapai kondisi dasar. Jika kedalaman rekursi sebanding dengan ukuran input 𝑛, maka kompleksitas waktu algoritma ini juga adalah O(n). Dengan vn dari setiap pemanggilan fungsi rekursif akan memakan waktu yang konstan, tetapi karena ada overhead tambahan dari pengelolaan call stack, waktu eksekusi cenderung lebih besar dibandingkan dengan algoritma iteratif untuk input yang sama.
-
-#### Penggunaan Memori
-- Algoritma Iteratif:
-
-  Algoritma iteratif menggunakan memori konstan karena hanya membutuhkan sedikit ruang untuk variabel-variabel yang digunakan dalam loop. Kompleksitas memori dari algoritma ini adalah O(1), artinya jumlah memori yang digunakan tidak tergantung pada ukuran input. Dengan proses semua operasi dilakukan dalam satu ruang memori, tanpa memerlukan rekursi tambahan atau penggunaan stack.
-
-- Algoritma Rekursif:
-
-  Algoritma rekursif memerlukan memori tambahan karena setiap pemanggilan fungsi rekursif menambah data pada call stack. Oleh karena itu, kompleksitas memori dari algoritma rekursif adalah O(n), karena kedalaman rekursi sebanding dengan jumlah elemen input. Dengan proses pada setiap panggilan rekursif, memori akan digunakan untuk menyimpan status eksekusi dan variabel sementara sampai fungsi mencapai kondisi dasar.
+Secara keseluruhan, meskipun algoritma rekursif menawarkan pendekatan yang lebih modular dan elegan, serta algoritma iteratif lebih sederhana dan langsung, perbedaan antara kedua metode tersebut dalam konteks "Kalkulator Hoki" sangat minim. Kedua algoritma ini memberikan hasil yang serupa dalam waktu eksekusi dan penggunaan memori, menjadikannya pilihan yang relevan dan efektif untuk masalah ini.
 
 
 ## Kesimpulan
