@@ -5,12 +5,12 @@
 ## Daftar Isi
 
 - [Studi Kasus](#Studi-Kasus)
-- [Struktur Program](#GambaranumumMonkeyPox)
-- [Deskripsi Algoritma](#GambaranumumMonkeyPox)
-- [Grafik Perbandingan Running Time](#Reference)
-- [Analisis Perbandingan Iteratif dan Rekursif](#Reference)
-- [Kesimpulan](#Conclusion)
-- [Referensi](#Reference)
+- [Struktur Program](#Struktur-Program)
+- [Deskripsi Algoritma](#Deskripsi-Algoritma)
+- [Grafik Perbandingan Running Time](#Grafik-Perbandingan-Running-Time)
+- [Analisis Perbandingan Iteratif dan Rekursif](#Analisis-Perbandingan-Iteratif-dan-Rekursif)
+- [Kesimpulan](#Kesimpulan)
+- [Referensi](#Referensi)
   
 ## Studi Kasus
 Kalkulator Hoki merupakan sebuah aplikasi interaktif yang dirancang untuk menghitung tingkat keberuntungan seseorang berdasarkan tiga huruf pertama dari nama panggilan mereka. Proses penghitungan dilakukan dengan menjumlahkan nilai numerik yang merepresentasikan huruf dalam alfabet (A=1, B=2, ..., Z=26), kemudian melibatkan operasi tambahan untuk menghasilkan skor keberuntungan (hoki) akhir.
