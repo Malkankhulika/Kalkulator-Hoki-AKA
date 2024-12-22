@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Hitung Hoki</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hitung Hoki Anda</h1>
+        <form method="POST">
+            <label for="nama">Masukkan nama panggilan Anda:</label>
+            <input type="text" id="nama" name="nama" required>
+            <button type="submit">Hitung Hoki</button>
+        </form>
+        
+        {% if hasil_hoki is not none %}
+            <div class="result" style="color: {{ warna }};">
+                <h2>Hoki Anda adalah {{ hasil_hoki }}%</h2>
+                <p>{{ pesan }}</p>
+                <p>Waktu eksekusi: {{ running_time | round(6) }} detik</p>  <!-- Menampilkan waktu eksekusi dengan 6 desimal -->
+                <p><a href="{{ spreadsheet_url }}" target="_blank">Lihat Data di Google Spreadsheet</a></p>
+            </div>
+        {% endif %}
+        
+        <form method="POST" action="/">
+            <button type="submit" name="keluar">Keluar dari Permainan</button>
+        </form>
+    </div>
+</body>
+</html>
